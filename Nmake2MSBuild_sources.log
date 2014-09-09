@@ -1,0 +1,64 @@
+Convert:	Verbose  : 2013-05-25 12:48:59 PM
+ConvertFile:	Information  : Converting "C:\Users\Hussain\Desktop\InjecTOR\sources"
+Parse      :	Verbose  : File contents after preprocessing:
+                        	TARGETNAME=InjecTOR
+                        	TARGETPATH=obj
+                        	TARGETTYPE=DRIVER
+                        	SOURCES=InjecTOR.c
+ParseIfApplies:	Verbose  : "TARGETNAME=InjecTOR" was parsed as a"MacroDefinition"
+ParseIfApplies:	Verbose  : "TARGETPATH=obj" was parsed as a"MacroDefinition"
+ParseIfApplies:	Verbose  : "TARGETTYPE=DRIVER" was parsed as a"MacroDefinition"
+ParseIfApplies:	Verbose  : "SOURCES=InjecTOR.c" was parsed as a"MacroDefinition"
+GenerateMsBuildFile:	Information  : Generated file "C:\Users\Hussain\Desktop\InjecTOR\sources.props"
+IsPropertyElementSetConditionally:	Verbose  : Property DriverType is set conditionally. Immediate condition ="'$(PlatformToolset)'=='WindowsApplicationForDrivers8.0'". Conditional parent element = Microsoft.Build.Construction.ProjectPropertyGroupElement
+PostProcessing                   :	Verbose  : Extracted property "PlatformToolset" with a value of "WindowsKernelModeDriver8.0" from sources.
+PostProcessing                   :	Verbose  : Extracted property "ConfigurationType" with a value of "Driver" from sources.
+PostProcessing                   :	Verbose  : Extracted property "DriverType" with a value of "WDM" from sources.
+PostProcessing                   :	Verbose  : Extracted property "TARGETNAME" with a value of "InjecTOR" from sources.
+PostProcessing                   :	Verbose  : VcxProj file copied to "InjecTOR.vcxproj"
+PostProcessing                   :	Verbose  : Added Project GUID: {A6A25197-71D8-4E25-A5D3-BFA76BD76EFC}
+PostProcessing                   :	Information  : Generated Project File InjecTOR.vcxproj
+AddIDESupport                    :	Verbose  : Attempting to add propery page support for converted targets and macros in project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+CheckForWellKnownTargets         :	Verbose  : Attempting to find and convert nmake targets to well-known MSBuild items, as appropriate.
+CheckForWellKnownTargetMacros:	Verbose  : Attempting to find and convert nmake target macros to well-known MSBuild items, as appropriate.
+AddIDESupport                :	Verbose  : Finished adding propery page support for converted targets and macros, changes saved to C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+AddOverrideConditionsToProperies:	Verbose  : Appended override conditions to properties in file 'C:\Users\Hussain\Desktop\InjecTOR\sources.props' and its imports
+GetDependencyInformation        :	Information  : Checking for external project dependencies
+GetDependencyInformation        :	Verbose  : Processing the following list of primary projects
+                                             	C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+AddPrerequisitesToSolution      :	Verbose  : Finding prerequisites for C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+GetPrerequisiteProjects         :	Verbose  : Scanning for prerequisites for project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+EvaluateProject                 :	Verbose  : $(O) set to 53edf00e-1f9f-49c6-aa24-5018fd1799d5
+ExtractIncludesFromItem         :	Verbose  : Extracting include elements from all items of type ClCompile
+ExtractIncludesFromItem         :	Verbose  : Extracting include elements from all items of type MessageCompile
+ExtractIncludesFromItem         :	Verbose  : Didn't find any items of type MessageCompile in project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+ExtractIncludesFromItem         :	Verbose  : Extracting include elements from all items of type Midl
+ExtractIncludesFromItem   :	Verbose  : Didn't find any items of type Midl in project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+ExtractIncludesFromItem   :	Verbose  : Extracting include elements from all items of type ResourceCompile
+ExtractIncludesFromItem   :	Verbose  : Didn't find any items of type ResourceCompile in project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+ExtractIncludesFromItemMetadata:	Verbose  : Extracting include elements from metadata AdditionalDependencies on item type Link, using splitter ;
+ExtractIncludesFromItemMetadata:	Verbose  : Extracting include elements from metadata AdditionalIncludeDirectories on item type ClCompile, using splitter ;
+FindPreReqProjectsInReferences :	Verbose  : Ignoring following path since it references the project's own $(O) C:\Users\Hussain\Desktop\InjecTOR\53edf00e-1f9f-49c6-aa24-5018fd1799d5
+GetPrerequisiteProjects        :	Verbose  : No prerequisite projects found for project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+AddPrerequisitesToSolution     :	Verbose  : Project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj had no prerequisites, adding to solution
+GetDependencyInformation       :	Information  : The primary project collection does not contain any projects that depend on others.
+CreateSolutionIncludingDependencies:	Verbose  : Attempting to generate solution file C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.sln from projects list
+CreatePackage                      :	Verbose  : Checking if any of the following projects should be packaged
+                                                	 C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+CreatePackage                      :	Verbose  : Generating package project
+CreatePackage                      :	Verbose  : Adding reference to project ..\InjecTOR.vcxproj with project guid {A6A25197-71D8-4E25-A5D3-BFA76BD76EFC}
+CreatePackage                      :	Information  : Generated Package Project file 'C:\Users\Hussain\Desktop\InjecTOR\InjecTOR-Package\InjecTOR-Package.vcxproj'
+InitializeProjectsForSolution      :	Information  : Generating solution C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.sln from:
+                                                    	    C:\Users\Hussain\Desktop\InjecTOR\InjecTOR-Package\InjecTOR-Package.vcxproj
+                                                    	    C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+ExtractProjectGuid                 :	Verbose  :  GUID {3034D5EE-D29E-4763-8958-5953B4CB6CBA} was extracted from project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR-Package\InjecTOR-Package.vcxproj
+ExtractProjectGuid                 :	Verbose  :  GUID {A6A25197-71D8-4E25-A5D3-BFA76BD76EFC} was extracted from project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+InitializeProjectsForSolution      :	Verbose  : Project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR-Package\InjecTOR-Package.vcxproj does not depend on others
+InitializeProjectsForSolution      :	Verbose  : Project C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj does not depend on others
+WriteProjectEntries          :	Verbose  : Added project InjecTOR-Package to solution with a GUID of {3034D5EE-D29E-4763-8958-5953B4CB6CBA}
+WriteProjectEntries          :	Verbose  : Added project InjecTOR to solution with a GUID of {A6A25197-71D8-4E25-A5D3-BFA76BD76EFC}
+WriteProjectConfigurations   :	Verbose  : Writing project configurations for C:\Users\Hussain\Desktop\InjecTOR\InjecTOR-Package\InjecTOR-Package.vcxproj
+WriteProjectConfigurations   :	Verbose  : Writing project configurations for C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.vcxproj
+CreateSolutionIncludingDependencies:	Information  : Solution C:\Users\Hussain\Desktop\InjecTOR\InjecTOR.sln was created successfully
+Convert                            :	Information  : ========== Project Conversion Finished: 1 Solution created with 2 Projects ==========
+Convert                            :	Verbose  : 2013-05-25 12:49:00 PM
