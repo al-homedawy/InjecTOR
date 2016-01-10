@@ -4,3 +4,5 @@ as follows:
   1. Attach to the process by calling KeStackAttachProcess ()
   2. Hook a commonly called function such as Sleep () and force LoadLibrary() to be called 
   3. After the injection is successful remove the hook on Sleep () and free allocated memory
+
+ Make sure to disable driver certification checks in order to run the application!
